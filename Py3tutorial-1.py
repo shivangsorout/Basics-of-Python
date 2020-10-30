@@ -25,3 +25,5 @@ for j in anime:
   print(anime[j])
 
 def("Hello Aliens")
+fav_anime = input("Enter your favourite anime: ")
+print(f"His favourite anime is {fav_anime}.")
