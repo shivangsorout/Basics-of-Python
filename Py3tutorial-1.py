@@ -31,3 +31,5 @@ guns = ["AKM","M416","UMP45","S686","S12K"]
 print(guns[0:3])      #Slicing from 0 to 2
 print(guns[2:])       #Slicing from 2
 print(guns[0])        #Indexing 0
+print(guns[1])        #Indexing 1
+print(guns[1:4])      #Slicing from 1 to 3
