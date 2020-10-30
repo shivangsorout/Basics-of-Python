@@ -1,3 +1,6 @@
+def show(s = ""):
+  print(s)
+
 games = ["Valorant", "NFS Payback", "GTA"]
 def do_something():
   print("I can do many things")
@@ -18,3 +21,4 @@ anime = ("Charlotte", "One Piece", "Naruto")
 for j in anime:
   print(anime[j])
 
+def("Hello Aliens")
