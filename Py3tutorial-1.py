@@ -5,6 +5,7 @@ print("Hello World")
 print("I am learning git and github")
 print("This is my first commit.")
 print("This is my second commit")
+print("This to merge the main bransh with another branch.")
 do_something()
 #adding dictionary
 game = {"NFSMW":2005,"NFSMW-2":2012}
