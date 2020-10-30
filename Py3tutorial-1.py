@@ -7,6 +7,9 @@ print("I am learning git and github")
 print("This is my first commit.")
 print("This is my second commit")
 print("This to merge the main bransh with another branch.")
+k = [1,2,3]
+for t in k:
+  print(k)
 do_something()
 #adding dictionary
 game = {"NFSMW":2005,"NFSMW-2":2012}
