@@ -10,3 +10,9 @@ do_something()
 game = {"NFSMW":2005,"NFSMW-2":2012}
 for i in game:
   print('Year: ',game(i))
+  
+#creating a tuple
+anime = ("Charlotte", "One Piece", "Naruto")
+for j in anime:
+  print(anime[j])
+
