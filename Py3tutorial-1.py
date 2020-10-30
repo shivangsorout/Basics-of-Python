@@ -27,3 +27,7 @@ for j in anime:
 def("Hello Aliens")
 fav_anime = input("Enter your favourite anime: ")
 print(f"His favourite anime is {fav_anime}.")
+guns = ["AKM","M416","UMP45","S686","S12K"]
+print(guns[0:3])      #Slicing from 0 to 2
+print(guns[2:])       #Slicing from 2
+print(guns[0])        #Indexing 0
