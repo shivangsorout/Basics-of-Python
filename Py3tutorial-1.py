@@ -1,3 +1,4 @@
+games = ["Valorant", "NFS Payback", "GTA"]
 def do_something():
   print("I can do many things")
   
