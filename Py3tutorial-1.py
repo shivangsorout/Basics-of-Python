@@ -34,4 +34,4 @@ print(guns[0])        #Indexing 0
 print(guns[1])        #Indexing 1
 print(guns[1:4])      #Slicing from 1 to 3
 for k in range(4):
-  print(guns[k])
+  print(f"Gun at index {k} is {guns[k]}.")
