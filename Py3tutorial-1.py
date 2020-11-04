@@ -35,3 +35,5 @@ print(guns[1])        #Indexing 1
 print(guns[1:4])      #Slicing from 1 to 3
 for k in range(4):
   print(f"Gun at index {k} is {guns[k]}.")
+
+beans = [[1 for i in range(3)] for i in range(3)]    #creating a list
