@@ -18,3 +18,11 @@ location_of_file = 'I:\\Python\\Basics-of-Python'
 filename = 'String Concatenation and formatting intermediate.py'
 with open(os.path.join(location_of_file,filename)) as f:
     print(f.read())
+
+
+#String formatting like ______ bought ______ apples today!
+
+who = "Nobita"
+how_many = 12
+
+print('\n{} bought {} apples today!'.format(who,how_many))
