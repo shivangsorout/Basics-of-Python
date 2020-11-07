@@ -18,7 +18,7 @@ def main():
                         help = "What is the value of X?")
     parser.add_argument('--n',type = float, default = 1,
                         help = "What is the value of Y?")
-    parser.add_argument('--operation',type = float, default = 1,
+    parser.add_argument('--operation',type = str, default = 1,
                         help = "What operation do you want to perform?")
     args = parser.parse_args()
     sys.stdout.write(str(calc(args)))
