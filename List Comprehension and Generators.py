@@ -17,7 +17,13 @@ def div_by_f(num):
 		return True
 	else:
 		return False
-
-x = [i for i in input_list if div_by_f(i)]
+'''
+x = [i for i in input_list if div_by_f(i)]	#list comprehension
 
 print(x)
+'''
+
+x = (i for i in input_list if div_by_f(i))	#generator
+print(list(x))
+
+[[print(e,r) for r in range(4)] for e in range(6)]
