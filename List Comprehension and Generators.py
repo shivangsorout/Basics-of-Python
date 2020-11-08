@@ -1,3 +1,5 @@
+import timeit as t
+
 # An example of generators 
 '''
 x = (i for i in range(600000))
@@ -27,3 +29,5 @@ x = (i for i in input_list if div_by_f(i))	#generator
 print(list(x))
 
 [[print(e,r) for r in range(4)] for e in range(6)]
+
+print(t.timeit('''1+6''',number = 500000))	#use of timeit module
